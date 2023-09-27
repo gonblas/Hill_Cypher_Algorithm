@@ -7,14 +7,14 @@ Los mensajes cifrados utilizando matrices fueron inventados por Hill en 1929 y c
 
 El ejercicio consiste en:
 
-***(a)*** Mandar un mensaje cifrado con la clave al **Grupo 16** de estudiantes.
+***a)*** Mandar un mensaje cifrado con la clave al **Grupo 16** de estudiantes.
 
-***(b)*** Decifrar el mensaje que les llego del **Grupo 14**.
+***b)*** Decifrar el mensaje que les llego del **Grupo 14**.
 
 Para codificar un mensaje utilizaremos el siguiente procedimiento:
 
--  Divida las letras del mensaje en grupos de tres.
--  Convierte cada grupo en una cadena de numeros asignando un numero a cada letra del mensaje.
+- Divida las letras del mensaje en grupos de tres.
+- Convierte cada grupo en una cadena de numeros asignando un numero a cada letra del mensaje.
 
 > Recuerda asignar letras a espacios en blanco.
 
@@ -28,5 +28,6 @@ Para decodificar un mensaje:
 **Regla de Cifrado:**
 
 | A | B | C | D | E | F | G | H | I | J | K | L | M | N | Ñ | O | P | Q | R | S | T | U | V | W | X | Y | Z | Espacio | . | , |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 |
  
