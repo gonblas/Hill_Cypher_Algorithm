@@ -29,7 +29,7 @@ El procedimiento para **descencriptar** un mensaje consiste en:
 
 ## Utilizacion del Repositorio
 En este repositorio, encontrarás una implementación de Hill Cipher en Java. Puedes utilizar este código para cifrar y descifrar mensajes de forma segura siguiendo el algoritmo de Hill Cipher. 
-Ejecutando [Menu](complete):
+Ejecutando [Menu](https://github.com/gonblas/Hill_Cypher_Algorithm/blob/main/Menu.java):
 ```
 Menu:
 1. Encriptar
