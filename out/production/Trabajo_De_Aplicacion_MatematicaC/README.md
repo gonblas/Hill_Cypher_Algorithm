@@ -49,7 +49,7 @@ Menu:
 Seleccione una opcion: 1
 Ingrese el mensaje a encriptar: Mensaje de ejemplo
 Encriptando...
-Mensaje encriptado: qa,ckwzhfimgtsvmyh
+Encrypted message: qa,ckwzhfimgtsvmyh
 ```
 
 ### Descencriptar 🔓
@@ -63,10 +63,10 @@ Menu:
 Seleccione una opcion: 2
 Ingrese el mensaje a descencriptar: qa,ckwzhfimgtsvmyh
 Descencriptando...
-Mensaje descencriptado: mensaje de ejemplo
+Decrypted message: mensaje de ejemplo
 ```
 
-### Cambiar matriz de encriptación :arrows_counterclockwise:
+### Cambiar matriz de encriptación
 
 ```
 Menu:
@@ -75,34 +75,14 @@ Menu:
 3. Cambiar la matriz de encripacion
 4. Salir
 Seleccione una opcion: 3
-La matriz de encriptacion debe cumplir con los siguientes requisitos:
-a. La matriz debe estar compuesta por numeros enteros.
-b. Debe tener inversa.
-c. La inversa tambien debe estar compuesta por numeros enteros.
-
-Cambiando matriz de encriptacion...
-
-Ingrese la fila 1 de la matriz separada por espacios: 
-35 53 12
-Ingrese la fila 2 de la matriz separada por espacios: 
-12 21 5
-Ingrese la fila 3 de la matriz separada por espacios: 
-2 4 1
-Matriz de encriptacion cambiada exitosamente.
+Ingrese el mensaje a descencriptar: qa,ckwzhfimgtsvmyh
+Descencriptando...
+Decrypted message: mensaje de ejemplo
 ```
 
 > Aclaracion: Los caracteres a utilizar deben estar en la Regla de Cifrado y el largo de la cadena de caracteres debe ser multiplo de tres (por la implementacion realizada).
 
-#### Matriz de encriptación por defecto
 
-$$
-M = 
-\begin{bmatrix}
-35 & 53 & 12\\
-12 & 21 & 5 \\
-2 & 4 & 1 \\
-\end{bmatrix} 
-$$
 
 
 
