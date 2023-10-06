@@ -105,5 +105,25 @@ M =
 $$
 
 
+## Como utilizarlo 
 
+1. Utiliza el siguiente comando para clonar este repositorio en tu sistema:
+``` bash
+git clone https://github.com/gonblas/Hill_Cypher_Algorithm
+```
+
+2. Navega al directorio del repositorio clonado:
+``` bash
+cd Hill_Cypher_Algorithm
+```
+
+3. Compilar:
+
+``` bash
+javac Menu.java
+```
+4. Ejecutar:
+``` bash
+java Menu
+```
 
