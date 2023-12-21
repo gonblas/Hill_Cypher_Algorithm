@@ -29,67 +29,9 @@ El procedimiento para **descencriptar** un mensaje consiste en:
 
 ## Utilizacion del Repositorio
 En este repositorio, encontrarás una implementación de Hill Cipher en Java. Puedes utilizar este código para cifrar y descifrar mensajes de forma segura siguiendo el algoritmo de Hill Cipher. 
-Ejecutando [Menu](https://github.com/gonblas/Hill_Cypher_Algorithm/blob/main/Menu.java):
-```
-Menu:
-1. Encriptar
-2. Descencriptar
-3. Cambiar la matriz de encripacion
-4. Salir
-Seleccione una opcion: 
-```
+Ejecutando [Main](https://github.com/gonblas/Hill_Cypher_Algorithm/Main.java):
 
-### Encriptar 🔏
-```
-Menu:
-1. Encriptar
-2. Descencriptar
-3. Cambiar la matriz de encripacion
-4. Salir
-Seleccione una opcion: 1
-Ingrese el mensaje a encriptar: Mensaje de ejemplo
-Encriptando...
-Mensaje encriptado: qa,ckwzhfimgtsvmyh
-```
-
-### Descencriptar 🔓
-
-```
-Menu:
-1. Encriptar
-2. Descencriptar
-3. Cambiar la matriz de encripacion
-4. Salir
-Seleccione una opcion: 2
-Ingrese el mensaje a descencriptar: qa,ckwzhfimgtsvmyh
-Descencriptando...
-Mensaje descencriptado: mensaje de ejemplo
-```
-
-### Cambiar matriz de encriptación :arrows_counterclockwise:
-
-```
-Menu:
-1. Encriptar
-2. Descencriptar
-3. Cambiar la matriz de encripacion
-4. Salir
-Seleccione una opcion: 3
-La matriz de encriptacion debe cumplir con los siguientes requisitos:
-a. La matriz debe estar compuesta por numeros enteros.
-b. Debe tener inversa.
-c. La inversa tambien debe estar compuesta por numeros enteros.
-
-Cambiando matriz de encriptacion...
-
-Ingrese la fila 1 de la matriz separada por espacios: 
-35 53 12
-Ingrese la fila 2 de la matriz separada por espacios: 
-12 21 5
-Ingrese la fila 3 de la matriz separada por espacios: 
-2 4 1
-Matriz de encriptacion cambiada exitosamente.
-```
+![Window](assets/window.svg)
 
 > Aclaracion: Los caracteres a utilizar deben estar en la Regla de Cifrado y el largo de la cadena de caracteres debe ser multiplo de tres (por la implementacion realizada).
 
@@ -120,10 +62,10 @@ cd Hill_Cypher_Algorithm
 3. Compilar:
 
 ``` bash
-javac Menu.java
+javac Main.java
 ```
 4. Ejecutar:
 ``` bash
-java Menu
+java Main
 ```
 

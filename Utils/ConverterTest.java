@@ -1,8 +1,9 @@
+package Utils;
+
+import Utils.Converter;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ConverterTest {
     @BeforeEach
@@ -11,7 +12,7 @@ class ConverterTest {
     }
 
     @Test
-    public void testEncryptAndDecrypt() {
+    public void testEncryptAndDecrypt() throws MatrixOperationException {
         String originalMessage = "hello world.";
         String encryptedMessage = Converter.encrypt(originalMessage);
         String decryptedMessage = Converter.decrypt(encryptedMessage);
@@ -27,11 +28,13 @@ class ConverterTest {
             fail("Se esperaba una excepción IllegalArgumentException");
         } catch (IllegalArgumentException e) {
             // Excepción esperada
+        } catch (MatrixOperationException e) {
+            throw new RuntimeException(e);
         }
     }
 
     @Test
-    public void testEncryptWithSpecialCharacters() {
+    public void testEncryptWithSpecialCharacters() throws MatrixOperationException {
         String message = "hola, mundo.";
         String encryptedMessage = Converter.encrypt(message);
         String decryptedMessage = Converter.decrypt(encryptedMessage);
@@ -40,7 +43,7 @@ class ConverterTest {
     }
 
     @Test
-    public void testMatrixInverse() {
+    public void testMatrixInverse() throws MatrixOperationException {
         double[][] inputMatrix = {{35, 53, 12}, {12, 21, 5}, {2, 4, 1}};
         double[][] expectedInverse = {{1, -5, 13}, {-2, 11, -31}, {6, -34, 99}};
 
@@ -53,7 +56,7 @@ class ConverterTest {
     }
 
     @Test
-    public void testMatrixIntegerCheck() {
+    public void testMatrixIntegerCheck() throws MatrixOperationException {
         double[][] inputMatrix = {
                 {1.0000000000001, 2.000000000002213},
                 {3.0000000000938, 4.000000000000023}
